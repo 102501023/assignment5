@@ -13,29 +13,29 @@ var skycons = new Skycons();
   // start all icons animation!
   skycons.play();
 
-  // var icon = function(weather, name){
-  //   if(weather === "Sunny" || "Fair (Day)" || "Hot" ){
-  //     skycons.set(name, Skycons.CLEAR_DAY);
-  //   }else if(weather === "Clear (Night)" || "Fair (Night)"){
-  //     skycons.set(name, Skycons.CLEAR_NIGHT);
-  //   }else if(weather === "Cloudy"  || "Partly Cloudy (Day)" || "Partly Cloudy"){
-  //     skycons.set(name, Skycons.PARTLY_CLOUDY_DAY);
-  //   }else if(weather === "Partly Cloudy (Night)"){
-  //     skycons.set(name, Skycons.PARTLY_CLOUDY_NIGHT);
-  //   }else if(weather === "Mostly Cloudy"|| "Mostly Cloudy (Night)" || "Mostly Cloudy (Day)"){
-  //     skycons.set(name, Skycons.CLOUDY);
-  //   }else if(weather === "Rain" || "Tropical Storm" || "hurricane" || "Severe Thunderstorms" || "Thunderstorms" || "Showers" ||"Mixed Rain and Hail" || "Isolated Thunderstorms" || "Scattered Thunderstorms" || "Scattered Showers" || " Thundershowers" || "Isolated Thundershowers"){
-  //     skycons.set(name, Skycons.RAIN);
-  //   }else if(weather === "Mixed Rain and Snow" || "Mixed Rain and Sleet" || "Mixed Snow and Sleet" || "Freezing drizzle" || "Drizzle" || "Freezing Rain" || "Hail" || "sleet"){
-  //     skycons.set(name, Skycons.SLEET);
-  //   }else if(weather === "Snow Flurries" || "Light Snow Showers" || "Blowing Snow" || "Snow" || "Cold" || "Heavy Snow" || "Scattered Snow Showers" || "Snow Showers"){
-  //     skycons.set(name, Skycons.SNOW);
-  //   }else if(weather === "Tornado" || "Dust" || "windy"){
-  //     skycons.set(name, Skycons.WIND);
-  //   }else if(weather === "Foggy" || "Haze" || "Smoky" || "Blustery"){
-  //     skycons.set(name, Skycons.FOG);
-  //   }
-  // }
+  var icon = function(weather, name){
+    if(weather === "Sunny" || "Fair (Day)" || "Hot" ){
+      skycons.set(name, Skycons.CLEAR_DAY);
+    }else if(weather === "Clear (Night)" || "Fair (Night)"){
+      skycons.set(name, Skycons.CLEAR_NIGHT);
+    }else if(weather === "Cloudy"  || "Partly Cloudy (Day)" || "Partly Cloudy"){
+      skycons.set(name, Skycons.PARTLY_CLOUDY_DAY);
+    }else if(weather === "Partly Cloudy (Night)"){
+      skycons.set(name, Skycons.PARTLY_CLOUDY_NIGHT);
+    }else if(weather === "Mostly Cloudy"|| "Mostly Cloudy (Night)" || "Mostly Cloudy (Day)"){
+      skycons.set(name, Skycons.CLOUDY);
+    }else if(weather === "Rain" || "Tropical Storm" || "hurricane" || "Severe Thunderstorms" || "Thunderstorms" || "Showers" ||"Mixed Rain and Hail" || "Isolated Thunderstorms" || "Scattered Thunderstorms" || "Scattered Showers" || " Thundershowers" || "Isolated Thundershowers"){
+      skycons.set(name, Skycons.RAIN);
+    }else if(weather === "Mixed Rain and Snow" || "Mixed Rain and Sleet" || "Mixed Snow and Sleet" || "Freezing drizzle" || "Drizzle" || "Freezing Rain" || "Hail" || "sleet"){
+      skycons.set(name, Skycons.SLEET);
+    }else if(weather === "Snow Flurries" || "Light Snow Showers" || "Blowing Snow" || "Snow" || "Cold" || "Heavy Snow" || "Scattered Snow Showers" || "Snow Showers"){
+      skycons.set(name, Skycons.SNOW);
+    }else if(weather === "Tornado" || "Dust" || "windy"){
+      skycons.set(name, Skycons.WIND);
+    }else if(weather === "Foggy" || "Haze" || "Smoky" || "Blustery"){
+      skycons.set(name, Skycons.FOG);
+    }
+  }
 
 /*
 Get value from Bootstrap dropdown menu
