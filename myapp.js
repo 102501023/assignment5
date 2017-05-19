@@ -49,7 +49,7 @@ var convert = function(x){
 
 //function of getting the value
 var weather = function(name){
-  $.getJSON(name,function(data){
+  $.getWeatherJSON(name,function(data){
     // 可以比較方便找到你要的資料在這個物件的哪個位置
     console.log (data) ;
     
